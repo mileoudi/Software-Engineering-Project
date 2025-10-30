@@ -3,47 +3,16 @@
   <img src=".\Mockups\Xplore_logo.png" alt="Xplore Logo" width="200"/>
 </p>
 
-## 📚 Overview
+## Overview
 
 **Xplore** is an educational storytelling web application developed as part of aν ΑUTH university course on Software Engineering. Inspired by the graphic novel *"Ποιός σκότωσε τον κ. Χ;"*, the platform allows interactive learning through stories, riddles, and character-driven progress.
 
 The project follows a **Design-First API** approach and adheres to the **OpenAPI 3.0.4 specification**.
 
+> The project was initially developed on the [Usereq](<https://usereq.issel.ee.auth.gr/>) platform, where the course deliverables were submitted.
 ---
 
-## 🧠 Functional Features
-
--  **Gamemaster**: Can browse stories and panels, invite solvers, and add riddles.
-- **Solver**: Accepts invitations and solves riddles.
-- **Story Flow**: Users proceed through stories using narrative panels.
-- **Custom Riddles**: Gamemasters can create or fetch riddles from the database.
-
----
-
-## 📦 Project Deliverables
-
-The development of the project followed a structured process organized in **three main deliverables**:
-
-### Deliverable 1
-
-- Collection of **User Requirements**
-- Definition of **User Stories**
-- Design of **Use Case Diagrams**
-- Creation of **Activity Diagrams** for key functionalities
-
-### Deliverable 2
-
-- Design of the **Class Diagrams**
-- Implementation of **Sequence Diagrams** to model system interactions
-
-### Deliverable 3
-
-- Definition and implementation of the **RESTful API**
-- Documentation of the API using **OpenAPI (Swagger)**
-- Organized project structure based on a **Design-First** approach
----
-
-## 📂 Repository Structure
+## Repository Structure
 ```
 ├── Descriptions/ 
 │ ├── EBC/
@@ -51,17 +20,18 @@ The development of the project followed a structured process organized in **thre
 ├── Diagrams/
 │ ├── ActivityDiagrams/
 │ ├── ClassDiagrams/
-├── Swagger/
-│ ├── api.json
-│ └── comonents.json
-└── README.md
+│ ├── DesignPatterns/
+│ ├── SequenceDiagrams/
+│ └── UseCaseDiagrams/
+├── Mockups/ 
+├── UserStories/ 
+├── ApiSpecification/
 ```
 
 ---
 
 ## API Specification
-
-The full OpenAPI spec is defined in [`initial.json`](./initial.json), describing endpoints such as:
+The full OpenAPI spec is defined in [`api.json`](./api.json), describing endpoints such as:
 
 - `POST /user`: Create new user (solver or gamemaster)
 - `GET /user/{id}/story/{story-id}/panel`: View panels
@@ -71,12 +41,11 @@ The full OpenAPI spec is defined in [`initial.json`](./initial.json), describing
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **OpenAPI 3.0.4**
 - **Swagger UI / Editor**
 - **JSON/YAML Schema Design**
 - **UML Diagrams** (Activity, Class, Use Case)
-## 📄 License
 
 
