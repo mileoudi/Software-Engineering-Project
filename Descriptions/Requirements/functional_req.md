@@ -1,7 +1,7 @@
 
 ## Functional Requirements Table
 
-| ID  | Title | Description | User | Type | User Priority | System Priority |
+| ID  | Title | Description | Stakeholder | Type | User Priority | System Priority |
 |-----|-------|-------------|-------------|------|---------------|-----------------|
 | R-10 | Choose role | User selects **gamemaster** or **solver**. | User | F | High | High |
 | R-11 | Choose desired story | User selects which story to play. | User | F | High | High |
