@@ -1,4 +1,4 @@
-﻿# 🧩 Xplore Web Application - Software Engineering Project
+﻿# Xplore Web Application - Software Engineering Project
 <p align="center">
   <img src=".\Mockups\APP_LOGO.png" alt="Xplore Logo" width="200"/>
 </p>
@@ -13,10 +13,10 @@ The project follows a **Design-First API** approach and adheres to the **OpenAPI
 
 ## 🧠 Functional Features
 
-- 🧑‍🏫 **Gamemaster**: Can browse stories and panels, invite solvers, and add riddles.
-- 🧑‍🎓 **Solver**: Accepts invitations and solves riddles.
-- 🧩 **Story Flow**: Users proceed through stories using narrative panels.
-- ❓ **Custom Riddles**: Gamemasters can create or fetch riddles from the database.
+- **Gamemaster**: Can browse stories and panels, invite solvers, and add riddles.
+- **Solver**: Accepts invitations and solves riddles.
+- **Story Flow**: Users proceed through stories using narrative panels.
+- **Custom Riddles**: Gamemasters can create or fetch riddles from the database.
 
 ---
 
@@ -43,7 +43,7 @@ The development of the project followed a structured process organized in **thre
 - Organized project structure based on a **Design-First** approach
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 `
 ├── Descriptions/ 
 
@@ -68,43 +68,9 @@ The development of the project followed a structured process organized in **thre
 
 ---
 
-## 📑 API Specification
-
-The full OpenAPI spec is defined in [`initial.json`](./initial.json), describing endpoints such as:
-
-- `POST /user`: Create new user (solver or gamemaster)
-- `GET /user/{id}/story/{story-id}/panel`: View panels
-- `PUT /user/{id}/invitation/{invitation-id}`: Respond to invitations
-- `POST /user/{id}/story/{story-id}/riddle`: Add custom riddles
-- `GET /user/{id}/answer`: Retrieve answers by solvers
-
----
-
-## 🔗 Useful Links
-
-- 📁 [GitHub Repo](https://github.com/dimileou/Software-Engineering-Project)
-- 📜 [Swagger Documentation](https://github.com/dimileou/Software-Engineering-Project/tree/main/Swagger)
-- 📘 [Learn Swagger](https://swagger.io)
-
----
-
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **OpenAPI 3.0.4**
 - **Swagger UI / Editor**
 - **JSON/YAML Schema Design**
 - **UML Diagrams** (Activity, Class, Use Case)
-
----
-
-## ✍️ Authors
-
-- Team: Xplore API Team
-- Contact: `xplore-team@ece.auth.gr`
-
----
-
-## 📄 License
-
-Licensed under the [Apache 2.0 License](https://www.apache.org/licenses/LICENSE-2.0.html).
-
