@@ -46,6 +46,9 @@ The full OpenAPI spec is defined in [`api.json`](./api.json), describing endpoin
 - **OpenAPI 3.0.4**
 - **Swagger UI / Editor**
 - **JSON/YAML Schema Design**
-- **UML Diagrams** (Activity, Class, Use Case)
+- **UML Diagrams** (Activity, Class, Use Case
 
+## Development
+- *[Xplore Frontend]* **Frontend Github Repository**:https://github.com/mileoudi/XploreFrontend
+- *[Xplore Backend]* **Backend Github Repository**: https://github.com/mileoudi/XploreBrontend
 
