@@ -12,24 +12,6 @@ The project follows a **Design-First API** approach and adheres to the **OpenAPI
 > The project was initially developed on the [Usereq](<https://usereq.issel.ee.auth.gr/>) platform, where the course deliverables were submitted.
 ---
 
-## Repository Structure
-```
-├── Descriptions/ 
-│ ├── EBC/
-│ ├── Requirements/
-├── Diagrams/
-│ ├── ActivityDiagrams/
-│ ├── ClassDiagrams/
-│ ├── DesignPatterns/
-│ ├── SequenceDiagrams/
-│ └── UseCaseDiagrams/
-├── Mockups/ 
-├── UserStories/ 
-├── ApiSpecification/
-```
-
----
-
 ## API Specification
 The full OpenAPI spec is defined in [`api.json`](./api.json), describing endpoints such as:
 
@@ -51,4 +33,5 @@ The full OpenAPI spec is defined in [`api.json`](./api.json), describing endpoin
 ## Development
 - *[Xplore Frontend]* **Frontend Github Repository**:https://github.com/mileoudi/XploreFrontend
 - *[Xplore Backend]* **Backend Github Repository**: https://github.com/mileoudi/XploreBrontend
+
 
